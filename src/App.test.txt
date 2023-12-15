@@ -1,0 +1,62 @@
+import React, { useState } from 'react'
+import { saveText } from './Api/Api'
+
+export default function Tick(props , ShowAlert , title) {
+     const [text, setText] = useState('');
+
+
+    const onSaveText = async () => {
+        await saveText(text);
+        setText('')
+        props.ShowAlert('Text saved', 'success');
+      };
+
+    const toupper = () => {
+        let Newstate = text.toUpperCase();
+        setText(Newstate)
+        props.ShowAlert("Converted to upper case","success");
+    }
+    const tolower = () => {
+        let Newstate = text.toLowerCase();
+        setText(Newstate)
+       props.ShowAlert("Converted to lower case","success");
+    }
+    const toremove = () => {
+        let Newstate = ("");
+        setText(Newstate)
+        props.ShowAlert("Text removed ","success");
+    }
+    const toreverse = () => {
+        let strArr = text.split("");
+        strArr = strArr.reverse();
+        let Newstate = strArr.join("");
+        setText(Newstate)
+        props.ShowAlert("Text reversed ","success");
+    }
+    const onchange = (event) => {
+        setText(event.target.value)
+    }
+   
+    return (
+        <>
+            <div style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
+                <div className="mb-3">
+                    <h1>{props.title}</h1>
+                    <textarea className="form-control my-3" style={{ backgroundColor: props.mode === 'dark' ? 'black' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} id="textarea" rows="8" value={text} onChange={onchange} ></textarea>
+                </div>
+                <button disabled={text.length===0} className='btn bg-primary mx-2 my-2' onClick={toupper}>CONVERT TO UPPER CASE</button>
+                <button  disabled={text.length===0} className='btn bg-primary mx-2 my-2' onClick={tolower}>CONVERT TO LOWER CASE </button>
+                <button disabled={text.length===0} className='btn bg-primary mx-2 my-2' onClick={toreverse}>REVERSE TEXT</button>
+                <button disabled={text.length===0} className='btn bg-info mx-2 my-2' onClick={onSaveText}>SAVE TEXT</button>
+                <button disabled={text.length===0} className='btn bg-danger mx-5 my-2' onClick={toremove}>CLEAR TEXT</button>
+            </div>
+            <div className="container" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
+                <h2>Your Text Summary</h2>
+                <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length}  words  and {text.length} characters</p>
+                <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Average minutes to read</p>
+                <h2>Preview</h2>
+                <p>{text}</p>
+            </div>
+        </>
+    )
+}
