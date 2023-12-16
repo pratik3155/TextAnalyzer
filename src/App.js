@@ -55,19 +55,6 @@ function App() {
       <Router>
         <Navbar title="TextAnalyzer" home="Home" mode={mode} toggle={toggle} />
         <Alert alert={alert} />
-        <div
-          className="alert alert-warning alert-dismissible fade show"
-          role="alert"
-        >
-          <strong>Hello User</strong> Try Adding Some Text Below
-          <button
-            type="button"
-            className="btn-close"
-            data-bs-dismiss="alert"
-            aria-label="Close"
-          ></button>
-        </div>
-
         <div className="container">
           <Routes>
             <Route exact path="/about" element={<About />}></Route>
