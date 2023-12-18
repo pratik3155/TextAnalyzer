@@ -59,4 +59,4 @@ jobs:
           app-name: 'mytranslator-webapp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FFF41D9D6DEF43BEAB70B9049DBD0D9D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8474A9F9741E45E6A2711CA1A9E777E8 }}
