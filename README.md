@@ -11,9 +11,8 @@
 1. Azure App Service: Deployed the Node.js backend environment for text manipulation.<br>
 2. Azure Cosmos DB: Leveraged as a MongoDB repository to store search history.<br>
 3. Azure Static Web Apps: Hosted the front end of the website for user interaction.<br>
-4. Azure AI Translator Service: Utilized for text translation into multiple languages. <br>
 <h3>Azure AI Service</h3> 
-1. Azure AI Translator Service
+1. Azure AI Translator Service: Utilized for text translation into multiple languages. <br>
 
 
 
