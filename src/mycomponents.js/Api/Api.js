@@ -1,4 +1,4 @@
-const BASE_URL = "https://mytranslator-webapp.azurewebsites.net";
+const BASE_URL = "https://translator-backend.azurewebsites.net";
 
 export const saveText = async (text) => {
   try {
