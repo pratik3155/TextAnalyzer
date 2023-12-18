@@ -3,7 +3,7 @@
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://red-glacier-007f1f610.4.azurestaticapps.net/ <br>
-<b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
+<b>Demo Video URL :https://drive.google.com/file/d/1x48NI7aTyWzFAtoDbkiO8oEYAIto92qi/view?usp=sharing<br>
 <b>Github Repository URL :</b> https://github.com/pratik3155/TextAnalyzer <br>
 <b>Industry :</b> Lifestyle and Technology<br>
 <h2>Azure Services Used</h2>
