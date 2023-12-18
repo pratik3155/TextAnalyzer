@@ -56,7 +56,7 @@ Looking into the future, the project has promising avenues for growth. Integrati
 
 <h3>Azure Database for MySQL</h3>
 <b>Description:</b><p align="justify"> The project leverages Azure Database for MySQL to efficiently manage and store user interaction history. This relational database service ensures data consistency and supports quick retrieval of information.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-db.png" alt="azure-mysql-db-service"></img><br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYscfUBUbqwGd_DHVhG-ZjCOD7MUpxp4uhNe7toUg4ug&s" alt="azure-mysql-db-service"></img><br>
 
 <h3>Azure AI Translator Service</h3>
 <b>Description:</b><p align="justify">Azure AI Translator Service is the engine behind the Multilingual Content Hub's language translation capabilities. It employs advanced natural language processing to deliver accurate and contextually relevant translations.</p>
