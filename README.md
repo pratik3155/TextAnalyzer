@@ -43,7 +43,7 @@ Looking into the future, the project has promising avenues for growth. Integrati
 <h2>Azure AI Service</h2>
 <b>Azure AI Translator Service:</b><br><p align="justify">Our translation functionality is powered by the highly advanced Azure AI Translator service. This service utilizes state-of-the-art natural language processing algorithms to provide precise translations for an extensive range of languages and contexts.</p>
 <h2>Other Azure Technologies / Services</h2>
-<b>Azure Functions::</b><br><p align="justify">Azure Functions: Potential use for background processing tasks or additional functionalities.</p>
+<b>Azure Functions:</b><br><p align="justify">Azure Functions: Potential use for background processing tasks or additional functionalities.</p>
 <b>Azure Key Vault: </b><br><p align="justify">Securely manages keys, secrets, and certificates used in the application.</p>
 
 
