@@ -50,8 +50,9 @@ Looking into the future, the project has promising avenues for growth. Integrati
 <h2>Screenshots</h2>
 
 <h3>Azure App Service</h3>
-<b>Description:</b><p align="justify">Azure App Service provides a scalable and reliable hosting environment for the Multilingual Content Hub. It ensures seamless deployment and high availability, facilitating an optimal user experience.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-service.png" alt="azure-app-service"></img><br>
+<b>Description:</b><p align="justify">
+Azure App Service furnishes a scalable and dependable hosting setting for the TextAnalyzer, guaranteeing smooth deployment and uninterrupted availability to enhance the user experience..</p>
+<img src="https://github.com/pratik3155/TextAnalyzer/blob/main/Screenshots/app-service.png" alt="azure-app-service"></img><br>
 
 <h3>Azure cosmos DB</h3>
 <b>Description:</b><p align="justify">The project utilizes Azure Cosmos DB as its database solution to effectively manage and store user interaction history. This globally-distributed, multi-model database service ensures high data availability, consistency, and enables rapid information retrieval for seamless user experiences.</p>
